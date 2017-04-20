@@ -1,0 +1,19 @@
+{
+    "name": "istamendil/silextest",
+    "description": "Silex test project",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Alexander Ferenets",
+            "email": "ist.kazan@gmail.com"
+        }
+    ],
+    "require": {
+        "silex/silex": "~2.0"
+    },
+    "autoload":{
+      "psr-4": {
+        "": "src/"
+        }
+    }
+}
